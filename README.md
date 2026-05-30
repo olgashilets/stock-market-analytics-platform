@@ -39,7 +39,7 @@ See [`docs/architecture.md`](docs/architecture.md) and [`docs/data_model.md`](do
 stock-market-analytics-platform/
 ├── app/                         # Streamlit app and SQL query layer
 ├── data/
-│   ├── source/                  # monthly source file
+│   ├── source/                  # source file
 │   └── generated_archives/      # generated demo archive files
 ├── db/
 │   ├── schema.sql               # PostgreSQL tables, constraints, indexes
@@ -120,7 +120,3 @@ streamlit run app/Home.py
 ## Data note
 
 The generated archives are demo files built from monthly source data. They are used to validate ETL, database design and dashboard scenarios. They are not investment recommendations.
-
-## Security note
-
-Database credentials are loaded from environment variables. No passwords are hard-coded in the project. Use `.env.example` as a template and do not commit your real `.env` file.
