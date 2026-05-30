@@ -117,6 +117,27 @@ streamlit run app/Home.py
 3. **Instrument comparison** — compare normalized price dynamics and metrics.
 4. **Market anomalies** — review price jumps, turnover spikes and deals spikes.
 
+## Dashboard screenshots
+
+![Dashboard preview](docs/screenshots/dashboard_preview.png)
+
+<details>
+<summary>View individual screenshots</summary>
+
+### Market overview / Screener
+![Market overview](docs/screenshots/market_overview.png)
+
+### Instrument card
+![Instrument card](docs/screenshots/instrument_card.png)
+
+### Instrument comparison
+![Instrument comparison](docs/screenshots/instrument_comparison.png)
+
+### Market anomalies
+![Market anomalies](docs/screenshots/market_anomalies.png)
+
+</details>
+
 ## Data note
 
 The generated archives are demo files built from monthly source data. They are used to validate ETL, database design and dashboard scenarios. They are not investment recommendations.
